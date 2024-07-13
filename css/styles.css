@@ -51,6 +51,11 @@ body {
     margin: 0 auto;
 }
 
+#title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 #post_container {
     flex: 3 1 0;
 }
@@ -59,6 +64,10 @@ body {
     
     margin-bottom: 3rem;
     border-bottom: 2px solid #2C2E3A;
+}
+
+.post:last-child {
+    border: none;
 }
 
 .post h3 {
@@ -73,6 +82,7 @@ body {
     width: 100%;
 }
 
+/*Side content*/
 .sidebar {
     flex: 1 1 0;
 }
@@ -109,4 +119,34 @@ body {
 .side_element a:hover {
     color: #0A21C0;
     transition: 0.5s;
+}
+
+.social_medias li {
+    padding: 0.2em;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    margin-top: -1.1rem;
+    font-size: 1.3em;
+    border-top: 2px solid #2C2E3A;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+/*responsive*/
+@media (max-width: 450px) {
+    #container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 1.3rem;
+    }
+
+    #post_container {
+        width: 100%;
+    }
 }
