@@ -2,9 +2,7 @@
 A study only project for learn semantic HTML and responsive CSS.
 
 ## Made to
-Improve my HTML Semantics and CSS skills
+Improve my HTML Semantics and CSS skills and responsive with Mobiles
 
-## PC mode
+## Example
 
-
-## Mobile responsive mode
